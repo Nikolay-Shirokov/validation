@@ -82,7 +82,6 @@
         fieldsetList.forEach((fieldSet) => {                                         //7. Обходим массив найденных групп полей и для каждого 
           setEventListeners(fieldSet);                                                //8. Вызываем функцию setEventListeners передав в нее текущую группу полей.
         });
-        //setEventListeners(formElement);
       });
     };
 
